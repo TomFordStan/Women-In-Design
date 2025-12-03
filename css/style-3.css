@@ -55,7 +55,7 @@ blockquote {
 /*-- Styling Links --*/
 
 a {
-    color:rgb(199, 86, 0);
+    color:rgb(232, 116, 28);
     text-decoration: none;
     border-bottom: 2px dotted;
     font-weight: bold;
@@ -102,14 +102,14 @@ nav a {
 }
 
 nav a hover {
-    color:rgb(199, 86, 0);
+    color:rgb(232, 116, 28);
     transition: all;
 }
 
 /*-- Styling the footer --*/
 
 footer {
-    background: rgb(35, 35, 35);
+    background: rgb(46, 59, 86);
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 0.9rem;
