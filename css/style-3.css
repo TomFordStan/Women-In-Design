@@ -40,17 +40,27 @@ h3 {
 
 p {
     line-height:1.6;
+    margin-top: 15px;
     font-size: 0.9rem;
+}
+
+p1 {
+    line-height:1.6;
+    margin-bottom: -0.5px;
+    font-size: 1.2rem;
 }
 
 blockquote {
     font-family: "Baskervville", serif;
     font-size: 3rem;
     color: rgb(0, 0, 0);
+    float: left;
     max-width: 500px;
     padding: 0.1rem 0;
-    text-indent: -0.6rem;
+    text-indent: -0.2rem;
+    width: 300px;
 }
+
 
 /*-- Styling Links --*/
 
@@ -122,10 +132,6 @@ footer {
 
 /*-- Adding responsive images --*/
 
-.gridimage {
-    row-gap: 10px;
-}
-
 @media (max-width: 600px) {
 header, h1 {
     font-size: 4rem;
@@ -135,7 +141,34 @@ header, h1 {
     font-size: 1.5rem;
 }
 
-.gridimage {
-    row-gap: 10px;
+.gridimage{
+    display:grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
+
+}
+
+.alignleft	{float: left;
+	margin-right: 2em}
+
+
+.alignright	{float: right;
+	margin-left: 2em}
+
+p     {line-height: 2em}
+
+.img-container {
+  float: left;
+  width: 35%;
+  position: relative;
+  padding: 5px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.img-container2 {
+    float: right;
+    margin-top: 50px;
+
 }
